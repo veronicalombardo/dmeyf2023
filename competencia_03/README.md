@@ -9,4 +9,4 @@ se pasan variables rotas a NA y lags y deltas 1,3 y 6, media(lags(1 a 5)) => **A
 BO incluye variables rotas a NA, se elimina rank fijo, incluye lags y deltas 1,3 y 6, media(lags(1 a 5)), se eliminando FE intra-mes (salvo inv_ctrx_quarter) => **Archivo: BO_C3_0405_goss**
 5) Se realiza mismo semillerío que en el punto 2 => **KA_C3_SEM_0504_goss_SP**
 6) Se aplica semillerío de 20 semillas, mismo FE que el modelo anterior con los hiperparámetros compartidos por Juan Raman => **KA_C3_JR_SP**
-7) Se realiza un ensemble de los 4 modelos y se sube a Kaggle obteniendo para **9500 envíos** una ganancia de 128 millones (public LB) 
+7) Se realiza un ensemble de los 4 modelos y se sube a Kaggle obteniendo para **9500 envíos** una ganancia de 128 millones (public LB) => **KA_ensemble_C3_final**
