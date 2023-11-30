@@ -30,16 +30,16 @@ cantidad_semillas = 10 #pruebo primero con estas
 semillas <- as.integer(seq(15000, 80000, length.out = cantidad_semillas))
 
 # Parámetros fijos obtenidos en la Optimización Bayesiana 
-#iteración  (estímulos )
-PARAM$finalmodel$num_iterations <- 
-  PARAM$finalmodel$learning_rate <- 
-  PARAM$finalmodel$feature_fraction <- 
-  PARAM$finalmodel$min_data_in_leaf <- 
-  PARAM$finalmodel$num_leaves <- 
-  PARAM$finalmodel$feature_fraction_bynode <- 
-  PARAM$finalmodel$max_depth <- 
-  PARAM$finalmodel$top_rate <- 
-  PARAM$finalmodel$other_rate <- 
+#iteración 46 ganancia: 87.02 (estímulos 11049)
+PARAM$finalmodel$num_iterations <- 1254
+PARAM$finalmodel$learning_rate <- 0.0207368173898424
+PARAM$finalmodel$feature_fraction <- 0.992445662711932
+PARAM$finalmodel$min_data_in_leaf <- 12518
+PARAM$finalmodel$num_leaves <- 221
+PARAM$finalmodel$feature_fraction_bynode <- 0.697408019403877
+PARAM$finalmodel$max_depth <- 5
+PARAM$finalmodel$top_rate <- 0.25963554579698
+PARAM$finalmodel$other_rate <- 0.445368746596336
   
   
   
